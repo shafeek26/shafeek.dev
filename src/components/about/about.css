@@ -1,0 +1,104 @@
+section{
+    margin: 0px auto;
+    padding: 100px 0px;
+    max-width: 1000px;
+}
+.about_section{
+    max-width: 900px;
+}
+.about_section_heading{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: clamp(26px,5vw,var(--fz-heading));
+    white-space: nowrap;
+}
+.about_section .about_section_content_container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
+}
+p{
+    margin: 0px 0px 15px;
+}
+.about_section_content_box ul.skill_list{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+}
+.about_section_content_box ul.skill_list li{
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-xs);
+}
+.about_section_content_box ul.skill_list li::before{
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: var(--green);
+    font-size: var(--fz-sm);
+    line-height: 12px;
+}
+.my_profile{
+    position: relative;
+    max-width: 300px;
+}
+.my_profile .wrapper{
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    transition: var(--transition);
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: var(--border-radius);
+    background-color: var(--green);
+}
+.my_profile .wrapper::before{
+    top: 0px;
+    left: 0px;
+    background-color: var(--navy);
+    mix-blend-mode: screen;
+}
+.my_profile .wrapper::before, .my_profile .wrapper::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+.my_profile .wrapper .img{
+    position: relative;
+    border-radius: var(--border-radius);
+    mix-blend-mode: multiply;
+    filter: grayscale(100%) contrast(1);
+    transition: var(--transition);
+}
+.image_wwrapper{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/* media queries for responsiveness */
+@media (max-width : 768px){
+    section{
+        padding: 80px 0px;
+    }
+    .about_section .about_section_content_container{
+        display: block;
+    }
+    .my_profile{
+        margin: 50px auto 0px;
+    width: 70%;
+    }
+}
