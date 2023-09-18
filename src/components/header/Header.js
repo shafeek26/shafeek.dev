@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./header.css";
 import logo from "../../assets/2-removebg-preview.png";
 
