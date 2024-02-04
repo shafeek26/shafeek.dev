@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./header.css";
 import logo from "../../assets/2-removebg-preview.png";
+import { Link } from "react-router-dom";
 
 
 const Header = () => {
@@ -15,11 +16,11 @@ const Header = () => {
     <header className="header">
         <nav className="navbar">
             <div className="logo_container">
-              <a href="/">
+              <Link to="/">
                 <div>
                   <img src={logo} alt="logo" className="nav_logo"/>
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="nav_items">
               <ul>
@@ -29,7 +30,7 @@ const Header = () => {
                 <li><a href="/contact">Contact</a></li>
               </ul>
               <div>
-                <a className="resume_button" href="google.com" target="_blank">Resume</a>
+                <Link className="resume_button" to="/" target="_blank">Resume</Link>
               </div>
             </div>
             {/* mobile view responsise design sidebar toggler */}
@@ -48,7 +49,7 @@ const Header = () => {
                       <li><a href="/work">Work</a></li>
                       <li><a href="/contact">Contact</a></li>
                     </ul>
-                    <a href="/" className="resume_link">Resume</a>
+                    <Link to="/" className="resume_link">Resume</Link>
                   </nav>
                 </aside>
               </div>

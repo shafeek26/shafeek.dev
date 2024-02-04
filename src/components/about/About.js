@@ -1,5 +1,5 @@
 import "./about.css";
-import profile from "../../assets/profile.jpeg"
+import profile from "../../assets/profile.jpg"
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
         <div className="about_section_content_box">
           <div>
             <p>
-              "Hello! My name is Brittany and I enjoy creating things that live
+              "Hello! My name is Shafiq and I enjoy creating things that live
               on the internet. My interest in web development started back in
               2012 when I decided to try editing custom Tumblr themes — turns
               out hacking together a custom reblog button taught me a lot about
@@ -34,18 +34,12 @@ const About = () => {
         </div>
         <div className="my_profile">
           <div className="wrapper">
-            <div className="img image_wrapper">
-              <picture>
-                <source
-                  srcSet="https://media.istockphoto.com/id/1247019070/photo/curvy-road-on-the-mountains-of-cherrapunjee-road-from-shillong-to-cherrapunjee-in-meghalaya.webp?b=1&s=170667a&w=0&k=20&c=C-QJcwxURl5oaOOs7zn9vhQBCkpJm13wy6YMuwh305k="
-                  media="(orientation: portrait)"
-                />
-                <img
+            <div className="img img_wraper">
+            <img
                   src={profile}
                   alt=""
-                  style={{objectFit:"cover", opacity:1, width:"250px", height:"250px"}}
+                  style={{objectFit:"cover", opacity:1, width:"300px", height:"300px"}}
                 />
-              </picture>
             </div>
           </div>
         </div>

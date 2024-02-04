@@ -7,7 +7,7 @@ const Social_left = () => {
       <ul className="social_links">
         <li>
             <a
-              href="https://github.com/bchiang7"
+              href="https://github.com/shafeek26"
               aria-label="GitHub"
               target="_blank"
               rel="noreferrer"

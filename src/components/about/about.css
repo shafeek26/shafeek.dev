@@ -82,8 +82,9 @@ p{
     mix-blend-mode: multiply;
     filter: grayscale(100%) contrast(1);
     transition: var(--transition);
+    object-fit: contain;
 }
-.image_wwrapper{
+.image_wrapper{
     width: 100%;
     max-width: 100%;
     vertical-align: middle;
