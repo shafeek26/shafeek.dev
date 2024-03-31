@@ -11,7 +11,6 @@ const Header = () => {
     setSidebarToggle((prevState) => !prevState)
   }
 
-
   return (
     <header className="header">
         <nav className="navbar">
@@ -25,7 +24,6 @@ const Header = () => {
             <div className="nav_items">
               <ul>
                 <li><a href="/about">About</a></li>
-                <li><a href="/experience">Experience</a></li>
                 <li><a href="/work">Work</a></li>
                 <li><a href="/contact">Contact</a></li>
               </ul>
@@ -45,7 +43,6 @@ const Header = () => {
                   <nav>
                     <ul>
                       <li><a href="/about">About</a></li>
-                      <li><a href="/experience">Experience</a></li>
                       <li><a href="/work">Work</a></li>
                       <li><a href="/contact">Contact</a></li>
                     </ul>
