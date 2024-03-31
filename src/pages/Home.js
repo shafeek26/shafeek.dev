@@ -6,6 +6,7 @@ import Footer from "../components/footer/Footer";
 import "./home.css";
 import { Link } from "react-router-dom";
 
+
 const Home = () => {
   return (
     <div id="content">

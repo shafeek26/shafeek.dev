@@ -23,9 +23,9 @@ const Header = () => {
             </div>
             <div className="nav_items">
               <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/work">Work</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Work</a></li>
+                <li><a href="/">Contact</a></li>
               </ul>
               <div>
                 <Link className="resume_button" to="/" target="_blank">Resume</Link>
@@ -42,9 +42,9 @@ const Header = () => {
                 <aside aria-hidden="true" tabIndex={-1} className={sidebarToggle ? "sidebar_close" : "sidebar_open"}>
                   <nav>
                     <ul>
-                      <li><a href="/about">About</a></li>
-                      <li><a href="/work">Work</a></li>
-                      <li><a href="/contact">Contact</a></li>
+                      <li><a href="/">About</a></li>
+                      <li><a href="/">Work</a></li>
+                      <li><a href="/">Contact</a></li>
                     </ul>
                     <Link to="/" className="resume_link">Resume</Link>
                   </nav>
