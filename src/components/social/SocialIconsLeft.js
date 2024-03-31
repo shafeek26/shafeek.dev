@@ -29,7 +29,7 @@ const Social_left = () => {
             </a>
         </li>
         <li>
-          <a href="linkedin.com">
+          <a href="https://www.linkedin.com/in/shafiq-m-b0580320b">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               role="img"
@@ -69,7 +69,7 @@ const Social_left = () => {
           </a>
         </li>
         <li>
-          <a href="twitter.com">
+          <a href="https://twitter.com/shafiq__dev">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               role="img"
